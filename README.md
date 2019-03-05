@@ -31,7 +31,7 @@ __Download the Unity package from [here](https://github.com/sergiobd/ViveTracker
 </p>
  
 ## Downloading SteamVR asset
-This package works with SteamVR version 1.2.3, which is an old release. Get it from here. If you get the latest version (currently 2.2.0) you will be able to use the Vive Tracker, but not the controllers. If you only want to use the Vive Tracker, you’re fine with version 2.2.0, but you may have to delete the files that have compile errors. 
+This package works with SteamVR version 1.2.3, which is an old release. Get it from [here](https://github.com/ValveSoftware/steamvr_unity_plugin/releases/tag/1.2.3). If you get the latest version (currently 2.2.0) you will be able to use the Vive Tracker, but not the controllers. If you only want to use the Vive Tracker, you’re fine with version 2.2.0, but you may have to delete the files that have compile errors. 
 Download and import the SteamVR package before downloading this project or package.
 
 ## Unity config
