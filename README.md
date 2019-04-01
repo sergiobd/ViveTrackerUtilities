@@ -23,7 +23,7 @@ __Download the Unity package from [here](https://github.com/sergiobd/ViveTracker
 * “forcedDriver”: null
 * “activateMultipleDrivers”: true
 
-2.	Make a backup and edit the file **<Steam_Directory>/steamapps/common/SteamVR/drivers/null/resources/settings/default.vrsettings**. Set **“enable”: true**. 
+2.	Make a backup and edit the file **<Steam_Directory>/steamapps/common/SteamVR/drivers/null/resources/settings/default.vrsettings**. Set **“enable”: true**. </br>
 **Edit** : These settings may be overwritten by a SteamVR update. Add these values to the **steamvr** section of the file **<Steam_Directory>/config/steamvr.vrsettings**. They will override the defaults.
 3.	Restart SteamVR if it was open. Unplug your headset and Linkbox if they were plugged.
 4.	Plug your dongle if it if you hadn’t done it previously. Make sure your tracker/controller is properly synced. You should see something similar to this (ignore the *Not Ready* warning):
