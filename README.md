@@ -23,15 +23,15 @@ __Download the Unity package from [here](https://github.com/sergiobd/ViveTracker
 * “forcedDriver”: null
 * “activateMultipleDrivers”: true
 
-**Edit** : These settings may be overwritten by a SteamVR update. Add these values to the **steamvr** section of the file **<Steam_Directory>/config/steamvr.vrsettings**. They will override the defaults.
-2.	Make a backup and edit the file **<Steam_Directory>/steamapps/common/SteamVR/drivers/null/resources/settings/default.vrsettings**. Set **“enable”: true**.
+2.	Make a backup and edit the file **<Steam_Directory>/steamapps/common/SteamVR/drivers/null/resources/settings/default.vrsettings**. Set **“enable”: true**. (**Update**: See Edit at the end of this section).
 3.	Restart SteamVR if it was open. Unplug your headset and Linkbox if they were plugged.
 4.	Plug your dongle if it if you hadn’t done it previously. Make sure your tracker/controller is properly synced. You should see something similar to this (ignore the *Not Ready* warning):
 
 <p align="center">
   <img src="/DocImages/Tracker_SteamVR.png">
 </p>
- 
+
+
 ## Downloading SteamVR asset
 This package works with SteamVR version 1.2.3, which is an old release. Get it from [here](https://github.com/ValveSoftware/steamvr_unity_plugin/releases/tag/1.2.3). If you get the latest version (currently 2.2.0) you will be able to use the Vive Tracker, but not the controllers. If you only want to use the Vive Tracker, you’re fine with version 2.2.0, but you may have to delete the files that have compile errors. 
 Download and import the SteamVR package before downloading this project or package.
