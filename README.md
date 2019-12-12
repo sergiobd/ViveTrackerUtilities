@@ -80,3 +80,6 @@ The SampleScene uses a tracker to interact with a UnityUI. If you click on the *
 
 ## Building the project
 If you want to build your project, you must assure the **openvr_api.dll** is included in the Plugins folder of your build. You can copy it manually. Otherwise, edit the **CopyOpenVR.cs** script and point it to the correct location and it will be done automatically. 
+
+**Note for recent version of Unity (Tested with 2019.3.0f1):**
+If Unity complains that openvr_api.dll is not present, you have to import the OpenVR package using the Package Manager.
